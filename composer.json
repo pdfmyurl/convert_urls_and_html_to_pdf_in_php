@@ -1,5 +1,7 @@
+{    
     "name": "pdfmyurl/pdfmyurl",
     "type": "library",
+    "version": "1.61",
     "description": "Convert any URL to PDF and/or HTML to PDF in PHP with the PDFmyURL API",
     "keywords": ["HTMLtoPDF","URLtoPDF","PDF","PDFmyURL","webpagetopdf","HTML2PDF","URL2PDF","PDFAPI","htmltopdfapi"],
     "homepage": "https://pdfmyurl.com",
@@ -8,8 +10,12 @@
         {
             "name": "PDFmyURL",
             "email": "support@pdfmyurl.com",
-            "homepage": "http://pdfmyurl.com",
+            "homepage": "https://pdfmyurl.com/html-to-pdf-api-php-library",
             "role": "Developer"
         }
     ],
+    "require": {
+        "php": ">=5.3.10",
+        "ext-curl": "*"
+    }
 }
