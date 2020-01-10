@@ -3,6 +3,17 @@ PHP library to convert URLs and/or HTML to PDF via the PDFmyURL API service.
 
 You can use the PDFmyURL API with a license from https://pdfmyurl.com. You can get a trial license at https://pdfmyurl.com/request-trial first if you like.
 
+Notable features of our API are:
+
+* Conversion of webpages to PDF according to the latest HTML & CSS standards, so also flexbox and other cool stuff!
+* Setting of options that are typically not available in other libraries, such as
+  * Headers, Footers, Custom Page Sizes etc
+  * Watermarking with image or text
+  * Using custom backgrounds
+  * Converting only parts of the webpage
+  * Modifying a webpage with custom CSS
+  * Protecting the PDFs with a password
+
 ## Installation
 
 You can install the library via Packagist as follows.
