@@ -17,5 +17,11 @@
     "require": {
         "php": ">=5.3.10",
         "ext-curl": "*"
-    }
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "pdfmyurl\\pdfmyurl\\": "src/"
+        }
+    },
 }
