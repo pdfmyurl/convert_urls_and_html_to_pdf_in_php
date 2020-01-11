@@ -1,7 +1,7 @@
 {    
     "name": "pdfmyurl/pdfmyurl",
     "type": "library",
-    "version": "1.61.2",
+    "version": "1.61.3",
     "description": "Convert any URL to PDF and/or HTML to PDF in PHP with the PDFmyURL API",
     "keywords": ["HTMLtoPDF","URLtoPDF","PDF","PDFmyURL","webpagetopdf","HTML2PDF","URL2PDF","PDFAPI","htmltopdfapi"],
     "homepage": "https://pdfmyurl.com",
