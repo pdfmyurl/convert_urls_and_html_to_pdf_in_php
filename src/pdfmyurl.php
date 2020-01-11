@@ -104,6 +104,8 @@
 
 namespace pdfmyurl\pdfmyurl;
 
+use Exception;
+
 class PDFmyURL {
 	private $endpoint = 'http://pdfmyurl.com/api';
 	
