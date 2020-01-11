@@ -27,7 +27,9 @@ You can also just include the PDFmyURL.php file in your project from the src dir
 Here's how you convert a URL to PDF in PHP with our API. You can download this example from the src directory.
 
     <?php
-    require 'pdfmyurl.php';
+    require 'vendor/autoload.php';
+    
+    use pdfmyurl\pdfmyurl\PDFmyURL;
     
     try {
     
