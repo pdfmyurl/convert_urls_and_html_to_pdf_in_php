@@ -1,5 +1,7 @@
 <?php
-  require 'pdfmyurl.php';
+  require 'vendor/autoload.php';
+
+  use pdfmyurl\pdfmyurl\PDFmyURL;
 
   try {
     // first fill in the license that you received upon sign-up
