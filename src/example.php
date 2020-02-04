@@ -5,7 +5,7 @@
 
   try {
     // first fill in the license that you received upon sign-up
-    $pdf = new PDFmyURL ('your license here');
+    $pdf = new PDFmyURL ('yourlicensekey');
 
     // now set the options, so for example when we want to have a page in A4 in orientation portrait
     $pdf->SetPageSize('A4');
