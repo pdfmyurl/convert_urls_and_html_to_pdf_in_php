@@ -34,7 +34,7 @@ Here's how you convert a URL to PDF in PHP with our API. You can download this e
     try {
     
       // first fill in the license that you received upon sign-up
-      $pdf = new PDFmyURL ('your license here');
+      $pdf = new PDFmyURL ('yourlicensekey');
       
       // now set the options, so for example when we want to have a page in A4 in orientation portrait
       // you can also set these in our members area with a Wysiwig form by the way
