@@ -1,7 +1,7 @@
 <?php
 /**
  * filename	:	pdfmyurl.php
- * version	:	1.6
+ * version	:	1.7
  *
  * You can use this library as follows:
  *
@@ -35,6 +35,7 @@
  *      $pdf->SetWaitTime(...);						// Define the amount of time in milliseconds to wait after page load - for example for redirections
  *      $pdf->NoImages();							// Disables images
  *      $pdf->NoBackground();						// Disables the background
+ *	$pdf->NoAds();							// Disables ads on webpages
  *      
  *      // content and layout manipulation
  *      $pdf->SetCustomCSS(....);					// Applies custom CSS to the document
@@ -115,7 +116,7 @@ class PDFmyURL {
 	public function __construct($license) {
 		$this->tempdir = sys_get_temp_dir();
 		$this->options['license'] = $license;
-		$this->options['version'] = 'PHP_1.61';
+		$this->options['version'] = 'PHP_1.7';
 		$this->SetWatermarkLocation();
 		$this->SetWatermarkTransformation();
 		$this->SetStationaryLocation();
@@ -284,6 +285,12 @@ class PDFmyURL {
 	//
 	public function NoBackground() {
 		$this->options['no_background'] = '';
+	}
+	
+	// Disables ads on webpages
+	//
+	public function NoAds() {
+		$this->options['block_ads'] = '';
 	}
 	
 	// Disables internal links
